@@ -62,7 +62,6 @@ class BackupView(discord.ui.View):
 
             temp_channel_id = temp_channel.id
 
-            # Perform restoration
             await self.clean_existing_structure(interaction.guild)
             await self.restore_guild_details(interaction.guild)
             await self.restore_server_structure(interaction.guild)
