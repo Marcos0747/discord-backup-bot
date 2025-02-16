@@ -18,14 +18,15 @@ A bot to create/restore complete server backups including roles, channels, messa
 
 ## 🛠️ Installation
 1. Clone repository:
-
-git clone https://github.com/Marcos0747/discord-backup-bot.git
-cd discord-backup-bot
+  ```bash
+  git clone https://github.com/Marcos0747/discord-backup-bot.git
+  cd discord-backup-bot
+```
 
 2. Install dependencies:
-
-`setup.bat`
-
+  ```bash
+  setup.bat
+```
 3. Add your bot token in `config.py` file
 
 4. Run the bot:
@@ -53,7 +54,6 @@ cd discord-backup-bot
 - Missing Permissions: Ensure bot has admin privileges
 - Channel Errors: Delete existing backups.json and restart
 - Sticker Issues: Verify server has available sticker slots
-
 **⚠️ Warning: Backup files contain sensitive server data. Store securely!**
 
 ## 🤝 Contributions
