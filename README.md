@@ -54,6 +54,7 @@ A bot to create/restore complete server backups including roles, channels, messa
 - Missing Permissions: Ensure bot has admin privileges
 - Channel Errors: Delete existing backups.json and restart
 - Sticker Issues: Verify server has available sticker slots
+  
 **⚠️ Warning: Backup files contain sensitive server data. Store securely!**
 
 ## 🤝 Contributions
